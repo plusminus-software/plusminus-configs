@@ -12,6 +12,20 @@
     <description>Set of configurations of different Maven plugins (such as Checkstyle, PMD etc.) that can be used in plusminus-parent as a dependency</description>
     <url>https://github.com/plusminus-software/plusminus-configs</url>
 
+    <scm>
+        <url>https://github.com/plusminus-software/plusminus-configs</url>
+        <connection>scm:git:https://github.com/plusminus-software/plusminus-configs.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/plusminus-software/plusminus-configs.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <issueManagement>
+        <system>Github Issues</system>
+        <url>https://github.com/plusminus-software/plusminus-configs/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Github Actions</system>
+        <url>https://github.com/plusminus-software/plusminus-configs/actions</url>
+    </ciManagement>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -19,7 +33,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
     <developers>
         <developer>
             <name>Taras Shpek</name>
@@ -31,12 +44,6 @@
             <timezone>Europe/Kyiv</timezone>
         </developer>
     </developers>
-    
-    <scm>
-        <connection>scm:git:git://github.com/plusminus-software/plusminus-configs.git</connection>
-        <developerConnection>scm:git:ssh://github.com:plusminus-software/plusminus-configs.git</developerConnection>
-        <url>https://github.com/plusminus-software/plusminus-configs/tree/main</url>
-    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -85,5 +92,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
